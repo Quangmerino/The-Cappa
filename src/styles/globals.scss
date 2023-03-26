@@ -87,6 +87,7 @@ html,
 body {
   max-width: 100vw;
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -102,6 +103,18 @@ body {
 a {
   color: inherit;
   text-decoration: none;
+}
+
+.footer-title {
+  @apply text-[24px] font-extralight font-serif;
+}
+
+.rating {
+  @apply text-[15px] cursor-pointer lg:text-[25px];
+}
+
+.section {
+  @apply px-4 py-[120px] md:px-10 lg:px-56 2xl:px-72 3xl:px-[450px]
 }
 
 @media (prefers-color-scheme: dark) {

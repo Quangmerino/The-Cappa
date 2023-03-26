@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import Head from 'next/head'
 import { Inter } from 'next/font/google'
 import HomePage from '@/components/Home'
@@ -14,6 +15,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className=''>
+        <img className='fixed top-0 right-0 bottom-0 left-0 w-full h-[100vh] object-cover z-[1]' src='/sliders/slider2.jpeg' alt=''/>
         <HomePage/>
       </main>
     </>
